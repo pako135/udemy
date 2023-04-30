@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+      <link rel="icon" type="image/png" sizes="32x32" href="/staticx/udemy/images/v8/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/staticx/udemy/images/v8/favicon-16x16.png">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Udemy clone</title>
+        <meta name="description" content="Udemy clone">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./udemy.css">
+    </head>
+    <body>
+    <div class="navbar">
+    <ul  class="nav-menu">
+    <li alt="logo">
+      <a href="./udemy.html" class="header" target="_self"> <img class="logo-header" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"></a>
+    </li>
+    <li alt="dropmenu">
+      <button></button>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    <li>
+      <a href="#" class="header"> Categories</a>
+    </li>
+    </ul>
+    </div>
+    <div class="article">
+       <div class="slideshow">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <img src="https://img-c.udemycdn.com/notices/web_carousel_slide/image/745e103d-c4ff-48b4-9d4d-9862b7858db8.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="https://img-c.udemycdn.com/notices/web_carousel_slide/image/de684548-5cdf-4f02-8024-d7284acdd2fd.png" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+             
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 10000); // Change image every 2 seconds
+          }
+          </script>
+          
+       </div>
+       <div class="skills-hub">
+        <h1>A broad selection of courses</h1>
+        <p class="p1">Choose from 213,000 online video courses with new additions published every month</p>
+      <ul class="list-b">
+        <li>
+          <a href="#" target="_self">Python</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Excel</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Web Development</a>
+        </li>
+        <li>
+          <a href="#" target="_self">JavaScript</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Data Science</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Amazon AWS</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Drawing</a>
+        </li>
+      </ul> 
+      <div class="skill-box">
+        <h2 style="font-weight: bolder;">Expand your career opportunities with Python</h2>
+        <p class="p2">Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to</p>
+        <a href="#" target="_self" style="position: relative;left: 2%;padding: 1%;text-align: center;max-width: 150px;border: 0.5px solid black;">Eplore Python</a>
+        <ul class="skill-box-gallery">
+        <li>
+          <div class="skill-card"> skill card</div>
+        </li>
+        <li>
+          <div class="skill-card"> skill card</div>
+        </li>
+        <li>
+          <div class="skill-card"> skill card</div>
+        </li>
+        <li>
+          <div class="skill-card"> skill card</div>
+        </li>
+        <li>
+          <div class="skill-card"> skill card</div>
+        </li>
+          
+        </ul>
+      </div>
+      </div>
+    </div>   
+    <div class="feedback">
+      <div><h2> How learners like you are achieving their goals.</h2>
+        <p class="p1"> test</p>
+        <ul class="skill-box-gallery">
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+            
+          </ul>
+      </div>
+    </div>
+    <div class="menus">
+       <div class="card-gallery">
+        <h2>Students are viewing</h2>
+        <ul class="skill-box-gallery">
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+          <li>
+            <div class="skill-card"> skill card</div>
+          </li>
+            
+          </ul>
+       </div>
+       
+       <div class="banner-list">
+        <h2>Top Categories</h2>
+        <ul class="block-menu">
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+          <li class="block-card"><img loading="lazy" alt="" width="300" height="300" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" srcset="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg 1x, https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg 2x"><a href="#" target="_self"> test</a></li>
+        </ul>
+       </div> 
+    </div>  
+    <div class="featured">
+      <div><h2> Featured topics by category</h2>
+        <p class="p1"> test</p>
+        <ul class="skill-box-gallery">
+          <li>
+            <div class="skill-card"> <h3>Development</h3>
+            <a href="#" target="_self">Python</a>
+            <a href="#" target="_self">Web Development</a>
+            <a href="#" target="_self">Machine Learning</a>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card"> <h3>Business</h3>
+              <a href="#" target="_self">Financial Analysis</a>
+              <a href="#" target="_self">SQL</a>
+              <a href="#" target="_self">PMP</a>
+              </div>
+          </li>
+          <li>
+            <div class="skill-card"> <h3>IT and Software</h3>
+              <a href="#" target="_self">Amazon AWS</a>
+              <a href="#" target="_self">Ethical Hacking</a>
+              <a href="#" target="_self">Cyber security</a>
+              </div>
+          </li>
+          <li>
+            <div class="skill-card"> <h3>Design</h3>
+              <a href="#" target="_self">Photoshop</a>
+              <a href="#" target="_self">Graphic Design</a>
+              <a href="#" target="_self">Drawing</a>
+              </div>
+          </li>
+
+            
+          </ul>
+        <a href="#" target="_self" style="position: relative;left: 2%;padding: 1%;text-align: center;max-width: 150px;border: 0.5px solid black;">Eplore more topics</a>
+      </div>
+    </div>
+    <div class="footer">
+       <div class="logos">
+        <h2>Trusted by over 13,400 great teams</h2>
+        <p class="p1">Leading companies use the same courses to help employees keep their skills fresh.</p>
+        <ul class="logo-list">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+
+        </ul>
+       </div>
+       <div class="feedback-banner">
+        <div style="background-color: #bbb;min-height: 400px;display: flex;flex-direction: column;justify-content: center;align-items: center;padding-top: 50px;">
+          <div style="border: 1px solid black;height: 300px; width: 50%;display: flex;justify-content: center; padding: 20px;">
+           <div style="display: flex;flex-direction: column;">
+            <p class="p2">
+            Thanks to Udemy Business, Booz Allen has armed our workforce, specifically its data scientists, with highly relevant and in-demand tech skills that are enabling consultants to stay ahead of big data trends and raise the bar on proficiency, skills, and competencies to meet client demand.
+          </p>
+            <br><a href="#" target="_self">Read full story</a></div>
+            <p style="display: flex;flex-direction: column;justify-content: center;align-items: center;"><img src="https://s.udemycdn.com/home/ub-case-studies/James_Hemgen.jpeg" style="border: 0px solid;border-radius: 100%;width: 128px ;height: 128px;">
+              <br><span style="text-align: center;"><b>Jim Hemgen</b>
+              Principal<br>
+              Booz Allen Hamilton</span></p>
+          </div><br>
+
+          <a href="#" target="_self">View more customer stories</a></div>
+        </div>
+       <div class="photo">
+        <ul class="photo-main">
+<li style="margin-top: 40px;">
+            <ul style="display: flex;flex-direction: row;align-items: center;justify-content: space-evenly;list-style-type: none; ">  
+        <li>         
+    <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg" style="max-width: 200px;">
+    <h1>Upskill your team with Udemy Business</h1>
+    <uL>
+      <li>Unlimited access to 19,000+ top Udemy courses, anytime, anywhere</li>
+      <li>International course collection in 14 languages</li>
+      <li>Top certifications in tech and business</li>
+    </uL>
+  </li>
+    <li><img src="https://s.udemycdn.com/home/non-student-cta/UB_Promo_800x800.jpg" style="max-width: 100%;height: auto;width: 300px;"></li> 
+  </ul>
+</li>
+<li  style="margin-top: 40px;margin-bottom: 30px;">
+            <ul style="display: flex;flex-direction: row;align-items: center;justify-content: space-evenly;list-style-type: none; ">  
+              <li><img src="https://s.udemycdn.com/home/non-student-cta/instructor-1x-v3.jpg" style="max-width: 100%;height: auto;"></li>
+              <li>         
+         
+          <h1>Become an instructor</h1>
+          <uL>
+            <li>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</li>
+            <li><a href="#" target="_self">Start teaching today</li>
+          </uL>
+        </li>
+           </ul>
+</li>
+        </ul>
+       </div>   
+    </div>
+    <div class="bottom-bar">
+      <div class="links">
+        <div></div>
+        <div class="end">
+          <uL style="display: flex;flex-direction: row;justify-content: left;list-style-type: none;">
+            <uL style="display: flex;flex-direction: column;justify-content: center;align-items: left;list-style: none;">
+              <li>Udemy business</li>
+              <li>Teach on Udemy</li>
+              <li>Get the app</li>
+              <li>About us</li>
+              <li>Contact us</li>
+            </uL>
+            <uL style="display: flex;flex-direction: column;justify-content: center;align-items: left;list-style: none;">
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>Help and Support</li>
+              <li>Affiliate</li>
+              <li>Investors</li>
+              <li>Impressum kontakt</li>
+            </uL >
+            <uL style="display: flex;flex-direction: column;justify-content: center;align-items: left;list-style: none;">
+              <li>Terms</li>
+              <li>Privacy and Policy</li>
+              <li>Cookie settings</li>
+              <li>Sitemap</li>
+              <li>Accessibility Statement</li>
+            </uL>
+            <button type="button" style=" max-height: 50px;">English</button>
+          </uL>
+          
+          <ul style="display: flex;flex-direction: row;justify-content: space-between;list-style-type: none;">
+          <li><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" style="max-width: 100%;height: auto;width: 94px;"></li>
+          <li style="font-size: 12px;"> <span>© 2023 Udemy, Inc.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+        <script src="" async defer></script>
+    </body>
+</html>
